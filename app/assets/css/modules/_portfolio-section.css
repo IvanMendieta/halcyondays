@@ -1,0 +1,36 @@
+.portfolio-section{
+  background-color: $backgroundSpace;
+
+  &__container{
+    text-align: center;
+  }
+
+  &__title{
+    color: $mainTextGrey;
+    text-transform: uppercase;
+    font-family: 'Gotham Rounded', Verdana, Tahoma, Arial, Sans-Serif;
+    font-size: 0.9375rem;
+
+  }
+  &__arrow{
+    background-image: url('../../../assets/img/sep.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 30px;
+  }
+  &__desc{
+    color: $subTextTitle;
+    font-size: 0.875rem;
+    font-family: 'Gotham Rounded', Verdana, Tahoma, Arial, Sans-Serif;
+    padding-top: 68px;
+    max-width: 744px;
+    margin: 0 auto;
+    line-height: 25px;
+  }
+
+
+
+  span.desc-span{
+    color: $mainTextGrey;
+  }
+}

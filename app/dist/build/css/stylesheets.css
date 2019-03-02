@@ -516,3 +516,46 @@ img{
     background-color: #372c3c;
 
 }
+
+.portfolio-section{
+  background-color: #f3f5f8;
+}
+
+.portfolio-section__container{
+    text-align: center;
+  }
+
+.portfolio-section__title{
+    color: #353535;
+    text-transform: uppercase;
+    font-family: 'Gotham Rounded', Verdana, Tahoma, Arial, Sans-Serif;
+    font-size: 0.9375rem;
+
+  }
+
+.portfolio-section__arrow{
+    background-image: url('../../../assets/img/sep.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 30px;
+  }
+
+.portfolio-section__desc{
+    color: #8c9398;
+    font-size: 0.875rem;
+    font-family: 'Gotham Rounded', Verdana, Tahoma, Arial, Sans-Serif;
+    padding-top: 68px;
+    max-width: 744px;
+    margin: 0 auto;
+    line-height: 25px;
+  }
+
+.portfolio-section span.desc-span{
+    color: #353535;
+  }
+
+.margin-top-section{
+  padding-top: 108px;
+
+
+}
