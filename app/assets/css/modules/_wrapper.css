@@ -1,0 +1,14 @@
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+
+  @mixin atSmall{
+
+    &--small{
+      padding: 0px 20px;
+    }
+
+  }
+
+
+}
