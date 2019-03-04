@@ -23,9 +23,14 @@
     font-size: 0.875rem;
     font-family: 'Gotham Rounded', Verdana, Tahoma, Arial, Sans-Serif;
     padding-top: 68px;
-    max-width: 744px;
+    max-width: 741px;
     margin: 0 auto;
     line-height: 25px;
+    padding-bottom: 130px;
+
+    @mixin atSmall{
+      max-width: 100%;
+    }
   }
 
 

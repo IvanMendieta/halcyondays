@@ -482,9 +482,8 @@ img{
 @media (max-width: 530px){
 
 .btn--main{
-      max-width: 100%;
-      margin-bottom: 150px;
-      width: 100%
+      min-width: 100%;
+      margin-bottom: 100px
 
 
   }
@@ -545,9 +544,19 @@ img{
     font-size: 0.875rem;
     font-family: 'Gotham Rounded', Verdana, Tahoma, Arial, Sans-Serif;
     padding-top: 68px;
-    max-width: 744px;
+    max-width: 741px;
     margin: 0 auto;
     line-height: 25px;
+    padding-bottom: 130px;
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.portfolio-section__desc{
+      max-width: 100%
+  }
   }
 
 .portfolio-section span.desc-span{
