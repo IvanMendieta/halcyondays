@@ -632,3 +632,22 @@ img{
     line-height: 20px;
     font-weight: bold;
   }
+
+.specialist-section{
+  clear: both;
+
+
+}
+
+.specialist-section__left-col{
+  float: left;
+  max-width: 720px;
+}
+
+.specialist-section__right-col{
+  float: left;
+  max-width: 461px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}

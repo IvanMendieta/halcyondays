@@ -1,0 +1,17 @@
+.specialist-section{
+  clear: both;
+
+&__left-col{
+  float: left;
+  max-width: 720px;
+}
+&__right-col{
+  float: left;
+  max-width: 461px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+
+}
