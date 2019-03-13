@@ -28,6 +28,7 @@ function styles_files(callback){
 
 //pending change the root name so it can work.
 function scripts_files(callback){
+
     return gulp.src('app/assets/js/**/*.js')
         .pipe(concat('bundle.js'))
         .pipe(gulp.dest('app/dist/build/js'))

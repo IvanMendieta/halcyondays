@@ -1,0 +1,48 @@
+.problems-section{
+  background-image: url('../../../assets/img/problems_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__content{
+    text-align: center;
+  }
+
+  &__heading{
+    color: $mainWhite;
+    font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 80px 0px 0px 0px;
+    letter-spacing: 15px;
+    font-weight: 400;
+  }
+
+  &__subheading{
+    color: $mainWhite;
+    font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 42px;
+    font-size: 1.5625rem;
+    font-weight: 400;
+    letter-spacing: 10px;
+  }
+i.boldsubheading{
+  font-weight: bold;
+}
+
+.fa-angle-down{
+  color: $mainWhite;
+  background-color: $mainGreen;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+}

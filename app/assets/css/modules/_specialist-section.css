@@ -1,5 +1,6 @@
 .specialist-section{
   clear: both;
+  overflow: hidden;
 
 &__left-col{
   float: left;
