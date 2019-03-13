@@ -11,7 +11,7 @@
   &__title{
     color: $mainTextGrey;
     text-transform: uppercase;
-    font-family: 'Gotham Rounded', Verdana, Tahoma, Arial, Sans-Serif;
+    font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
     font-size: 0.9375rem;
   }
   &__columns{
@@ -30,7 +30,7 @@
   }
 
   &__subheaders{
-    font-family: 'Gotham Rounded', Verdana, Tahoma, Arial, Sans-Serif;
+    font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
     font-size: 0.875rem;
     text-transform: uppercase;
     color: $mainTextGrey;
@@ -48,9 +48,8 @@
   p{
     color: $subTextTitle;
     font-size: 0.875rem;
-    font-family: 'Gotham Rounded', Verdana, Tahoma, Arial, Sans-Serif;
+    font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
     line-height: 20px;
-    font-weight: bold;
   }
 
 }

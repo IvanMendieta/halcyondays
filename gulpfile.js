@@ -28,12 +28,13 @@ function styles_files(callback){
 
 //pending change the root name so it can work.
 function scripts_files(callback){
-    return gulp.src(('app/assets/js/**/*.js'))
+    return gulp.src('app/assets/js/**/*.js')
         .pipe(concat('bundle.js'))
         .pipe(gulp.dest('app/dist/build/js'))
         .pipe(browser_Sync.stream());
     callback();
 };
+
 
 
 // watch task file to watch for all saving changes files
@@ -48,6 +49,7 @@ function watch(){
   gulp.watch('app/*.html').on('change', browser_Sync.reload);
   gulp.watch('app/assets/css/**/*.css', styles_files);
   gulp.watch('app/assets/js/**/*.js', scripts_files);
+
 
 };
 

@@ -5,6 +5,7 @@
   float: left;
   max-width: 720px;
 }
+<<<<<<< HEAD
 &__right-col{
   float: left;
   max-width: 461px;
@@ -13,5 +14,43 @@
   text-align: center;
 }
 
+=======
+
+&__right-col{
+  float: right;
+  max-width: 456px;
+  margin-right: 150px;
+  text-align: center;
+  margin-top: 135px;
+
+  @mixin atSmall{
+    margin-top: 50px;
+    margin-right: 0px;
+    padding: 0px 20px;
+  }
+}
+&__maintext{
+  color: $mainTextGrey;
+  text-transform: uppercase;
+  font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
+  font-size: 0.9375rem;
+}
+
+&__arrow{
+  background-image: url('../../../assets/img/sep.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 30px;
+}
+
+p{
+  color: $subTextTitle;
+  font-size: 0.885rem;
+  font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
+  line-height: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+>>>>>>> specialist-section
 
 }
