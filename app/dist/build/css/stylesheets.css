@@ -925,12 +925,6 @@ img{
 
 }
 
-.what-we-do-section{
-  overflow: hidden;
-  clear: both;
-
-}
-
 .what-we-do-section__container{
     text-align: center;
   }
@@ -997,10 +991,6 @@ img{
 .specialist-section{
   clear: both;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> specialist-section
 }
 
 .specialist-section__left-col{
@@ -1009,13 +999,14 @@ img{
 }
 
 .specialist-section__right-col{
-<<<<<<< HEAD
   float: left;
   max-width: 461px;
   margin-left: 100px;
   margin-right: 100px;
   text-align: center;
-=======
+}
+
+.specialist-section__right-col{
   float: right;
   max-width: 456px;
   margin-right: 150px;
@@ -1055,5 +1046,4 @@ img{
   line-height: 20px;
   margin-top: 30px;
   text-align: left;
->>>>>>> specialist-section
 }
