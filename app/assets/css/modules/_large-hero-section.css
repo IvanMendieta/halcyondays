@@ -1,0 +1,77 @@
+.large-hero-section{
+  overflow: hidden;
+  clear: both;
+  background-image: url('../../../assets/img/large-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__menu-icon{
+    cursor: pointer;
+    float: right;
+    margin-top: 68px;
+
+
+    div{
+      width: 30px;
+      height: 5px;
+      background-color: $burgerMenuColor;
+      border-radius: 2px;
+      margin: 6px 0;
+
+    }
+
+    @mixin atSmall{
+      margin-top: 38px;
+    }
+
+  }
+
+  &__container{
+
+    text-align: center;
+  }
+
+  &__maintitle{
+    padding-top: 255px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+    color: $mainTextGrey;
+    font-weight: 400;
+    padding-bottom: 33px;
+
+
+    span.lightmaintitle{
+      color: $mainTextLight;
+    }
+
+    @mixin atSmall{
+      font-size: 1.5rem;
+      padding-top: 130px;
+      letter-spacing: 10px;
+    }
+
+  }
+
+  &__submaintitle{
+    font-family: 'Varela Round', sans-serif;
+    color: $subTextTitle;
+    padding-bottom: 65px;
+    letter-spacing: 2px;
+    font-size: 0.9375rem;
+
+    i{
+      font-weight: bold;
+    }
+
+    @mixin atSmall{
+      line-height: 25px;
+    }
+  }
+
+
+
+
+
+}

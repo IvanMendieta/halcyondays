@@ -361,3 +361,144 @@ img{
   margin: 0;
   padding: 0;
 }
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.wrapper{
+    padding: 0px 20px
+
+}
+  }
+
+.large-hero-section{
+  overflow: hidden;
+  clear: both;
+  background-image: url('../../../assets/img/large-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+
+
+}
+
+.large-hero-section__menu-icon{
+    cursor: pointer;
+    float: right;
+    margin-top: 68px;
+
+  }
+
+.large-hero-section__menu-icon div{
+      width: 30px;
+      height: 5px;
+      background-color: #372c3c;
+      border-radius: 2px;
+      margin: 6px 0;
+
+    }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.large-hero-section__menu-icon{
+      margin-top: 38px
+
+  }
+  }
+
+.large-hero-section__container{
+
+    text-align: center;
+  }
+
+.large-hero-section__maintitle{
+    padding-top: 255px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+    color: #353535;
+    font-weight: 400;
+    padding-bottom: 33px;
+
+  }
+
+.large-hero-section__maintitle span.lightmaintitle{
+      color: #a1a9b0;
+    }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.large-hero-section__maintitle{
+      font-size: 1.5rem;
+      padding-top: 130px;
+      letter-spacing: 10px
+
+  }
+  }
+
+.large-hero-section__submaintitle{
+    font-family: 'Varela Round', sans-serif;
+    color: #8c9398;
+    padding-bottom: 65px;
+    letter-spacing: 2px;
+    font-size: 0.9375rem;
+  }
+
+.large-hero-section__submaintitle i{
+      font-weight: bold;
+    }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.large-hero-section__submaintitle{
+      line-height: 25px
+  }
+  }
+
+.btn{
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #3dc9b3;
+  padding: 18px 38px;
+  display: inline-block;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  margin-bottom: 341px;
+
+
+
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.btn{
+    min-width: 100%;
+    margin-bottom: 100px;
+    padding: 25px 38px
+
+
+
+}
+  }
