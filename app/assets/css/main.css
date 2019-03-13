@@ -2,6 +2,8 @@
 @import 'base/_global';
 @import 'base/_mixins';
 @import 'base/_variables';
+@import 'pluggins/_slick';
+@import 'pluggins/_slick-theme';
 @import 'modules/_wrapper';
 @import 'modules/_large-hero-section';
 @import 'modules/_btn';
@@ -9,3 +11,4 @@
 @import 'modules/_portfolio-section';
 @import 'modules/_margin-top-section';
 @import 'modules/_what-we-do-section';
+@import 'modules/_specialist-section';
