@@ -18,11 +18,13 @@
     margin-right: 0px;
     padding: 0px 20px;
   }
+}
 &__maintext{
   color: $mainTextGrey;
   text-transform: uppercase;
   font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
   font-size: 0.9375rem;
+  text-transform: uppercase;
 }
 
 &__arrow{
@@ -41,5 +43,4 @@ p{
   text-align: left;
 }
 
-}
 }

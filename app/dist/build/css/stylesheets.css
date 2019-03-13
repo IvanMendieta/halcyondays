@@ -990,6 +990,7 @@ img{
 
 .specialist-section{
   clear: both;
+
 }
 
 .specialist-section__left-col{
@@ -1003,7 +1004,6 @@ img{
   margin-right: 150px;
   text-align: center;
   margin-top: 135px;
-
 }
 
 /*** if screen is larger than 530 do this ***/
@@ -1014,25 +1014,25 @@ img{
     margin-top: 50px;
     margin-right: 0px;
     padding: 0px 20px
-
 }
   }
 
-.specialist-section__right-col__maintext{
+.specialist-section__maintext{
   color: #353535;
   text-transform: uppercase;
   font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
   font-size: 0.9375rem;
+  text-transform: uppercase;
 }
 
-.specialist-section__right-col__arrow{
+.specialist-section__arrow{
   background-image: url('../../../assets/img/sep.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-bottom: 30px;
 }
 
-.specialist-section__right-col p{
+.specialist-section p{
   color: #8c9398;
   font-size: 0.885rem;
   font-family: 'Varela Round', Verdana, Tahoma, Arial, Sans-Serif;
