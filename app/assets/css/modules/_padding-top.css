@@ -1,0 +1,8 @@
+.padding-top{
+  padding-top: 105px;
+
+  @mixin atSmall{
+    padding-top: 50px;
+  }
+
+}

@@ -502,3 +502,63 @@ img{
 
 }
   }
+
+.padding-top{
+  padding-top: 105px;
+
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.padding-top{
+    padding-top: 50px
+
+}
+  }
+
+.center-container{
+  text-align: center;
+}
+
+.portfolio-section{
+  background-color: #f3f5f8;
+
+
+}
+
+.portfolio-section__heading{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    color: #353535;
+    letter-spacing: 2px;
+
+  }
+
+.portfolio-section .arrow-sep{
+    background-image: url('../../../assets/img/sep.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 30px;
+  }
+
+.portfolio-section__desc{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.875rem;
+    color: #8c9398;
+    max-width: 743px;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-top: 67px;
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.portfolio-section__desc{
+      margin-top: 37px
+  }
+  }
