@@ -552,6 +552,7 @@ img{
     margin: 0 auto;
     line-height: 30px;
     margin-top: 67px;
+    padding-bottom: 100px;
   }
 
 /*** if screen is larger than 530 do this ***/
@@ -559,6 +560,7 @@ img{
 @media (max-width: 530px){
 
 .portfolio-section__desc{
-      margin-top: 37px
+      margin-top: 37px;
+      padding-bottom: 50px
   }
   }

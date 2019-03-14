@@ -24,9 +24,11 @@
     margin: 0 auto;
     line-height: 30px;
     margin-top: 67px;
+    padding-bottom: 100px;
 
     @mixin atSmall{
       margin-top: 37px;
+      padding-bottom: 50px;
     }
   }
 
