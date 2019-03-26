@@ -9,12 +9,6 @@
     letter-spacing: 2px;
 
   }
-  .arrow-sep{
-    background-image: url('../../../assets/img/sep.png');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    padding-bottom: 30px;
-  }
 
   &__desc{
     font-family: 'Varela Round', sans-serif;

@@ -1,0 +1,53 @@
+.what-you-do-section{
+
+  &__heading{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    color: $mainTextGrey;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  &__content{
+    float: left;
+    width: 32.33%;
+    padding-top: 88px;
+    text-align: center;
+    padding-left: 34px;
+
+    @mixin atSmall{
+      width: 100%;
+      padding-left: 0;
+    }
+
+  }
+
+  &__heading-col{
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9355rem;
+    color: $mainTextGrey;
+    letter-spacing: 1px;
+    padding-top: 50px;
+  }
+  &__heading-col:after{
+    border-bottom: 3px solid $mainGreen;
+    display: block;
+    content: "";
+	  width: 34px;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 31px;
+  }
+
+  &__desc{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.875rem;
+    color: $subTextTitle;
+    line-height: 20px;
+    width: 329px;
+    margin: 0 auto;
+  }
+
+}

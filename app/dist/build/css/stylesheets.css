@@ -537,13 +537,6 @@ img{
 
   }
 
-.portfolio-section .arrow-sep{
-    background-image: url('../../../assets/img/sep.png');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    padding-bottom: 30px;
-  }
-
 .portfolio-section__desc{
     font-family: 'Varela Round', sans-serif;
     font-size: 0.875rem;
@@ -564,3 +557,67 @@ img{
       padding-bottom: 50px
   }
   }
+
+.what-you-do-section__heading{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    color: #353535;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+.what-you-do-section__content{
+    float: left;
+    width: 32.33%;
+    padding-top: 88px;
+    text-align: center;
+    padding-left: 34px;
+
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.what-you-do-section__content{
+      width: 100%;
+      padding-left: 0
+
+  }
+  }
+
+.what-you-do-section__heading-col{
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9355rem;
+    color: #353535;
+    letter-spacing: 1px;
+    padding-top: 50px;
+  }
+
+.what-you-do-section__heading-col:after{
+    border-bottom: 3px solid #3dc9b3;
+    display: block;
+    content: "";
+	  width: 34px;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 31px;
+  }
+
+.what-you-do-section__desc{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.875rem;
+    color: #8c9398;
+    line-height: 20px;
+    width: 329px;
+    margin: 0 auto;
+  }
+
+.arrow-sep{
+  background-image: url('../../../assets/img/sep.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 30px;
+}
