@@ -567,6 +567,15 @@ img{
     text-align: center;
   }
 
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.what-you-do-section__heading{
+      line-height: 30px
+  }
+  }
+
 .what-you-do-section__content{
     float: left;
     width: 32.33%;
@@ -582,7 +591,8 @@ img{
 
 .what-you-do-section__content{
       width: 100%;
-      padding-left: 0
+      padding-left: 0;
+      padding-top: 40px
 
   }
   }
@@ -594,6 +604,15 @@ img{
     color: #353535;
     letter-spacing: 1px;
     padding-top: 50px;
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.what-you-do-section__heading-col{
+      padding-top: 30px
+  }
   }
 
 .what-you-do-section__heading-col:after{
