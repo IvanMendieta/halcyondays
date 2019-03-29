@@ -1,0 +1,73 @@
+.specialist-section{
+  overflow: hidden;
+  clear: both;
+
+  @mixin atSmall{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+
+&__col{
+  width: 50%;
+  float: left;
+  overflow: hidden;
+
+  @mixin atSmall{
+    width: 100%;
+    float: none;
+  }
+}
+
+&__imgiphone{
+  margin-left: 270px;
+  margin-top: 83px;
+
+  @mixin atSmall{
+    margin-left: 120px;
+    margin-top: 0;
+  }
+}
+
+&__heading{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  color: $mainTextGrey;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 133px;
+
+  @mixin atSmall{
+    margin-top: 50px;
+  }
+}
+
+&__desc{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.875rem;
+  color: $subTextTitle;
+  line-height: 20px;
+  margin-top: 45px;
+  text-align: left;
+}
+
+
+
+.left-col{
+  background-color: $backgroundSpace;
+}
+.right-col{
+  width: 458px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 100px;
+
+  @mixin atSmall{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+}

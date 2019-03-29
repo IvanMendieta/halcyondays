@@ -640,3 +640,103 @@ img{
   background-position: center bottom;
   padding-bottom: 30px;
 }
+
+.specialist-section{
+  overflow: hidden;
+  clear: both;
+
+
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.specialist-section{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px
+
+
+}
+  }
+
+.specialist-section__col{
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.specialist-section__col{
+    width: 100%;
+    float: none
+}
+  }
+
+.specialist-section__imgiphone{
+  margin-left: 270px;
+  margin-top: 83px;
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.specialist-section__imgiphone{
+    margin-left: 120px;
+    margin-top: 0
+}
+  }
+
+.specialist-section__heading{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  color: #353535;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 133px;
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.specialist-section__heading{
+    margin-top: 50px
+}
+  }
+
+.specialist-section__desc{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.875rem;
+  color: #8c9398;
+  line-height: 20px;
+  margin-top: 45px;
+  text-align: left;
+}
+
+.specialist-section .left-col{
+  background-color: #f3f5f8;
+}
+
+.specialist-section .right-col{
+  width: 458px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 100px;
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.specialist-section .right-col{
+    width: 100%;
+    margin-left: 0
+}
+  }
