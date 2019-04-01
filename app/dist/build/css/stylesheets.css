@@ -820,3 +820,45 @@ img{
       margin-top: 33px
   }
   }
+
+.services-section__cols{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 14px;
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.services-section__cols{
+      width: 100%
+  }
+  }
+
+.services-section__heading{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9375rem;
+    color: #353535;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 37px;
+  }
+
+.services-section__heading:after{
+    border-bottom: 3px solid #3dc9b3;
+    display: block;
+    content: "";
+    width: 34px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+.services-section__desc{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.875rem;
+    color: #8c9398;
+    line-height: 20px;
+  }
