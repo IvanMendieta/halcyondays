@@ -740,3 +740,83 @@ img{
     margin-left: 0
 }
   }
+
+.problems-section{
+  background-image: url('../../../assets/img/problems_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+/* background-attachment: fixed; */
+
+.problems-section__content{
+    text-align: center;
+  }
+
+.problems-section__heading{
+    padding-top: 63px;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: normal;
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.problems-section__heading{
+      font-size: 1.5rem;
+      letter-spacing: 5px
+  }
+  }
+
+.problems-section__subheading{
+    padding-top: 18px;
+    color: #fff;
+    font-size: 1.5625rem;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: normal;
+
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.problems-section__subheading{
+      font-size: 1.1rem;
+      letter-spacing: 4px
+
+  }
+  }
+
+.problems-section b{
+    font-style: italic;
+  }
+
+.problems-section .fa-chevron-down{
+    margin-top: 40px;
+    color: #fff;
+    background-color: #3dc9b3;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 31px;
+    cursor: pointer;
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.problems-section .fa-chevron-down{
+      margin-top: 33px
+  }
+  }

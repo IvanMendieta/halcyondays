@@ -1,0 +1,62 @@
+.problems-section{
+  background-image: url('../../../assets/img/problems_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+
+  &__content{
+    text-align: center;
+  }
+
+  &__heading{
+    padding-top: 63px;
+    color: $mainWhite;
+    font-size: 2.5rem;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: normal;
+
+    @mixin atSmall{
+      font-size: 1.5rem;
+      letter-spacing: 5px;
+    }
+  }
+  &__subheading{
+    padding-top: 18px;
+    color: $mainWhite;
+    font-size: 1.5625rem;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: normal;
+
+    @mixin atSmall{
+      font-size: 1.1rem;
+      letter-spacing: 4px;
+    }
+
+  }
+
+
+  b{
+    font-style: italic;
+  }
+
+  .fa-chevron-down{
+    margin-top: 40px;
+    color: $mainWhite;
+    background-color: $mainGreen;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 31px;
+    cursor: pointer;
+
+    @mixin atSmall{
+      margin-top: 33px;
+    }
+  }
+
+
+}
