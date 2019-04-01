@@ -1,4 +1,6 @@
 .services-section{
+  overflow: hidden;
+  clear: both;
 
   &__cols{
     width: 33.33%;

@@ -1,0 +1,22 @@
+.passion-section{
+  margin-top: 108px;
+  background-color: $navyDark;
+
+  &__content{
+    text-align: center;
+  }
+  &__heading{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    color: $mainWhite;
+    margin: 59px 0;
+    letter-spacing: 3px;
+    border: 1px solid $mainWhite;
+    display: inline-block;
+    padding: 26px 38px;
+    border-radius: 2px;
+
+  }
+
+}

@@ -821,6 +821,14 @@ img{
   }
   }
 
+.services-section{
+  overflow: hidden;
+  clear: both;
+
+
+
+}
+
 .services-section__cols{
     width: 33.33%;
     float: left;
@@ -861,4 +869,28 @@ img{
     font-size: 0.875rem;
     color: #8c9398;
     line-height: 20px;
+  }
+
+.passion-section{
+  margin-top: 108px;
+  background-color: #242830;
+
+}
+
+.passion-section__content{
+    text-align: center;
+  }
+
+.passion-section__heading{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 59px 0;
+    letter-spacing: 3px;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 26px 38px;
+    border-radius: 2px;
+
   }
