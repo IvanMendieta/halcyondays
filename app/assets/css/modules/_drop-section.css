@@ -17,6 +17,7 @@
   &__cols-content{
     margin-top: 80px;
     overflow: hidden;
+    clear: both;
   }
 
   &__cols{
@@ -59,9 +60,11 @@ ul.socials-icons-content li{
   border-radius: 50%;
   color: $mainWhite;
   cursor: pointer;
+  margin-bottom: 115px;
 
   @mixin atSmall{
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 

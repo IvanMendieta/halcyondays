@@ -1097,6 +1097,7 @@ img{
 .drop-section__cols-content{
     margin-top: 80px;
     overflow: hidden;
+    clear: both;
   }
 
 .drop-section__cols{
@@ -1145,6 +1146,7 @@ img{
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
+  margin-bottom: 115px;
 }
 
 /*** if screen is larger than 530 do this ***/
@@ -1152,6 +1154,84 @@ img{
 @media (max-width: 530px){
 
 .drop-section ul.socials-icons-content li{
-    margin-top: 50px
+    margin-top: 50px;
+    margin-bottom: 50px
 }
   }
+
+.footer-section{
+  overflow: hidden;
+  background-color: #242830;
+
+}
+
+.footer-section__content{
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.footer-section__content{
+    padding-top: 36px;
+    padding-bottom: 36px
+}
+  }
+
+.footer-section__cols-left{
+  float: left;
+  width: 40%;
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.footer-section__cols-left{
+    width: 100%;
+    float: none;
+    text-align: center
+}
+  }
+
+.footer-section__left-desc{
+  color: #a1a9b0;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+
+.footer-section__cols-right{
+  float: right;
+  width: 40%;
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.footer-section__cols-right{
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 25px
+}
+  }
+
+.footer-section__right-desc{
+  color: #a1a9b0;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+
+.footer-section .pipe{
+    color: #fff;
+}
+
+.footer-section .footer-span{
+  color: #fff;
+}

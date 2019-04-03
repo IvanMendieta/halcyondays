@@ -1,0 +1,57 @@
+.footer-section{
+  overflow: hidden;
+  background-color: $navyDark;
+
+&__content{
+  padding-top: 56px;
+  padding-bottom: 56px;
+
+  @mixin atSmall{
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+}
+
+&__cols-left{
+  float: left;
+  width: 40%;
+
+  @mixin atSmall{
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+&__left-desc{
+  color: $mainTextLight;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+
+&__cols-right{
+  float: right;
+  width: 40%;
+
+  @mixin atSmall{
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 25px;
+  }
+}
+&__right-desc{
+  color: $mainTextLight;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+.pipe{
+    color: $mainWhite;
+}
+.footer-span{
+  color: $mainWhite;
+}
+
+}
