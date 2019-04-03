@@ -1074,3 +1074,84 @@ img{
 
 }
   }
+
+.drop-section{
+  overflow: hidden;
+  clear: both;
+  background-color: #f3f5f8;
+
+
+}
+
+.drop-section__heading{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    color: #353535;
+  }
+
+.drop-section__content{
+    text-align: center;
+  }
+
+.drop-section__cols-content{
+    margin-top: 80px;
+    overflow: hidden;
+  }
+
+.drop-section__cols{
+    width: 30%;
+    float: left;
+    background-color: #fff;
+    margin-left: 30px;
+    padding: 25px 0px 25px 0px;
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.drop-section__cols{
+      width: 100%;
+      margin-top: 30px;
+      margin-left: 0px
+  }
+  }
+
+.drop-section__sub-heading{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    color: #3dc9b3;
+    margin-top: 22px;
+    font-weight: normal;
+    letter-spacing: 2px;
+  }
+
+.drop-section__desc{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.875rem;
+    color: #8c9398;
+    margin-top: 35px;
+  }
+
+.drop-section ul.socials-icons-content li{
+  display: inline-block;
+  margin-top: 100px;
+  margin-left:  12px;
+  margin-right:  12px;
+  background-color: #000;
+  padding: 11px;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.drop-section ul.socials-icons-content li{
+    margin-top: 50px
+}
+  }
