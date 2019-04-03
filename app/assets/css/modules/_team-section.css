@@ -1,4 +1,5 @@
 .team-section{
+  overflow: hidden;
 
   &__heading{
     text-align: center;
