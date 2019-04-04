@@ -391,32 +391,6 @@ img{
 
 }
 
-.large-hero-section__menu-icon{
-    cursor: pointer;
-    float: right;
-    margin-top: 68px;
-
-  }
-
-.large-hero-section__menu-icon div{
-      width: 30px;
-      height: 5px;
-      background-color: #372c3c;
-      border-radius: 2px;
-      margin: 6px 0;
-
-    }
-
-/*** if screen is larger than 530 do this ***/
-
-@media (max-width: 530px){
-
-.large-hero-section__menu-icon{
-      margin-top: 38px
-
-  }
-  }
-
 .large-hero-section__container{
 
     text-align: center;
@@ -1235,3 +1209,89 @@ img{
 .footer-section .footer-span{
   color: #fff;
 }
+
+.menu-icon__menuburger{
+    cursor: pointer;
+    float: right;
+    margin-top: 68px;
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.menu-icon__menuburger{
+      margin-top: 38px
+  }
+  }
+
+.menu-icon__menuburger div{
+      width: 30px;
+      height: 5px;
+      background-color: #372c3c;
+      border-radius: 2px;
+      margin: 6px 0;
+
+    }
+
+.menu-icon__accordion-menu{
+    background-color: #242830;
+    padding: 0px 150px;
+    height: 0;
+    overflow: hidden;
+   transition: all .7s ease;
+
+
+
+  }
+
+/*** if screen is larger than 530 do this ***/
+
+@media (max-width: 530px){
+
+.menu-icon__accordion-menu{
+        padding: 0px 20px
+
+
+
+  }
+  }
+
+/* style to hide the menu accordion */
+
+.menu-icon__accordion-menu nav{
+      padding-top: 20px;
+    }
+
+.menu-icon__accordion-menu nav ul li{
+        list-style-type: none;
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+        margin-bottom: 20px;
+      }
+
+.menu-icon__accordion-menu nav ul li:nth-child(6){
+          border: none !important;
+        }
+
+.menu-icon__accordion-menu nav ul li a{
+            font-family: 'Varela Round', sans-serif;
+            color: rgba(255, 255, 255, 0.6);
+            display: block;
+            text-decoration: none;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-size: 0.875rem;
+          }
+
+.menu-icon__accordion-menu span.arrows{
+              float: right;
+              margin-top: 5px;
+              color: rgba(255, 255, 255, 0.6);
+            }
+
+/* visible accordion style */
+
+.menu-icon--visible {
+    height: 362.6px;
+
+  }

@@ -5,27 +5,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  &__menu-icon{
-    cursor: pointer;
-    float: right;
-    margin-top: 68px;
-
-
-    div{
-      width: 30px;
-      height: 5px;
-      background-color: $burgerMenuColor;
-      border-radius: 2px;
-      margin: 6px 0;
-
-    }
-
-    @mixin atSmall{
-      margin-top: 38px;
-    }
-
-  }
-
   &__container{
 
     text-align: center;

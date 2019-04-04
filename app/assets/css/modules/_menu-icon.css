@@ -1,0 +1,73 @@
+.menu-icon{
+
+  &__menuburger{
+    cursor: pointer;
+    float: right;
+    margin-top: 68px;
+
+    @mixin atSmall{
+      margin-top: 38px;
+    }
+
+    div{
+      width: 30px;
+      height: 5px;
+      background-color: $burgerMenuColor;
+      border-radius: 2px;
+      margin: 6px 0;
+
+    }
+  }
+
+  &__accordion-menu{
+    background-color: $navyDark;
+    padding: 0px 150px;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all .7s ease;
+   -moz-transition: all 7s ease;
+   transition: all .7s ease;
+
+   /* style to hide the menu accordion */
+
+    @mixin atSmall{
+        padding: 0px 20px;
+    }
+
+    nav{
+      padding-top: 20px;
+    }
+      nav ul li{
+        list-style-type: none;
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+        margin-bottom: 20px;
+      }
+        nav ul li:nth-child(6){
+          border: none !important;
+        }
+          nav ul li a{
+            font-family: 'Varela Round', sans-serif;
+            color: rgba(255, 255, 255, 0.6);
+            display: block;
+            text-decoration: none;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-size: 0.875rem;
+          }
+            span.arrows{
+              float: right;
+              margin-top: 5px;
+              color: rgba(255, 255, 255, 0.6);
+            }
+
+
+
+  }
+
+ /* visible accordion style */
+  &--visible {
+    height: 362.6px;
+
+  }
+
+}
