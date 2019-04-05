@@ -5,6 +5,10 @@
   background-position: center;
   /* background-attachment: fixed; */
 
+  @mixin atSmall{
+    margin-top: 50px;
+  }
+
   &__content{
     text-align: center;
   }

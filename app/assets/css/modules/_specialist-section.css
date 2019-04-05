@@ -50,6 +50,11 @@
   line-height: 20px;
   margin-top: 45px;
   text-align: left;
+  margin-bottom: 40px;
+
+  @mixin atSmall{
+    margin-bottom: 20px;
+  }
 }
 
 

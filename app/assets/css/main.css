@@ -19,3 +19,5 @@
 @import 'modules/_drop-section';
 @import 'modules/_footer-section';
 @import 'modules/_menu-icon';
+@import 'pluggins/slick';
+@import 'pluggins/slick-theme';
