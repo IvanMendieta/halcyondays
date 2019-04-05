@@ -905,6 +905,10 @@ img{
 
 }
 
+.team-section__content{
+    text-align: center;
+  }
+
 .team-section__heading{
     text-align: center;
     font-family: 'Varela Round', sans-serif;
@@ -959,6 +963,9 @@ img{
 .team-section img{
     -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .team-section ul.socials li{
@@ -966,6 +973,7 @@ img{
     margin-top: 37px;
     margin-left:  12px;
     margin-right:  12px;
+    margin-bottom: 40px;
     background-color: #000;
     padding: 11px;
     border-radius: 50%;
