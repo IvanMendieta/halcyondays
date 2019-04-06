@@ -736,6 +736,7 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 
 
 }
@@ -750,8 +751,6 @@ img{
 
 }
   }
-
-/* background-attachment: fixed; */
 
 .problems-section__content{
     text-align: center;
@@ -1324,6 +1323,57 @@ img{
     height: 362.6px;
 
   }
+
+.hover-image-container{
+  position: relative;
+
+
+}
+
+.hover-image-container__desc{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 600;
+  }
+
+.hover-image-container__overlay-image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3dc9b3;
+    cursor: pointer;
+    width: 98%;
+  }
+
+.hover-image-container__overlay-image:hover{
+  opacity: 0.7;
+}
+
+.hover-image-container .image-hover{
+  display: block;
+}
+
+.hover-image-container .fa-search{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
 
 /* Slider */
 
