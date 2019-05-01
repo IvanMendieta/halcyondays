@@ -396,6 +396,22 @@ img{
     text-align: center;
   }
 
+.large-hero-section__progress-bar-container{
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+  }
+
+.large-hero-section__progress-bar{
+    height: 8px;
+    background-color: #3dc9b3;
+    width: 0%;
+  }
+
 .large-hero-section__maintitle{
     padding-top: 255px;
     font-family: 'Varela Round', sans-serif;
@@ -1242,6 +1258,7 @@ img{
     cursor: pointer;
     float: right;
     margin-top: 68px;
+    
   }
 
 /*** if screen is larger than 530 do this ***/
@@ -1250,16 +1267,31 @@ img{
 
 .menu-icon__menuburger{
       margin-top: 38px
+    
   }
   }
 
-.menu-icon__menuburger div{
+.menu-icon__menuburger .bar1, .menu-icon__menuburger .bar2, .menu-icon__menuburger .bar3{
       width: 30px;
       height: 5px;
       background-color: #372c3c;
       border-radius: 2px;
       margin: 6px 0;
+      transition: 0.4s;
+    }
 
+.menu-icon__menuburger .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+.menu-icon__menuburger .change .bar2 {
+      opacity: 0;
+    }
+
+.menu-icon__menuburger .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px);
     }
 
 .menu-icon__accordion-menu{

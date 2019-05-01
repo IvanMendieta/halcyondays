@@ -11,4 +11,12 @@ document.getElementById('my-Menu').addEventListener('click', () => {
       accordion.classList.add('menu-icon--visible');
   }
 
+  var burgerIcon = document.getElementById('burger-bars');
+
+  if( burgerIcon.classList.contains('change') ){
+      burgerIcon.classList.remove('change');
+  }else{
+      burgerIcon.classList.add('change');
+  }
+
 });

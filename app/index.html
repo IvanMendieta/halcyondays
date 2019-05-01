@@ -17,7 +17,6 @@
 <link rel="stylesheet" type="text/css" href="pluggins/slick-theme.css"/>
 
 
-
 </head>
 <body>
 
@@ -35,11 +34,18 @@
   </nav>
 </div>
 <section class="large-hero-section">
+  <!-- progress bar section -->
+  <div class="large-hero-section__progress-bar-container">
+    <div class="large-hero-section__progress-bar" id="myBar"></div>
+  </div>
+
   <div class="wrapper wrapper--small">
     <div class="menu-icon__menuburger" id="my-Menu">
-      <div></div>
-      <div></div>
-      <div></div>
+      <div id="burger-bars">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
     </div>
     <div class="large-hero-section__container">
       <h2 class="large-hero-section__maintitle">Halcyon<span class="lightmaintitle">days</span></h2>
@@ -441,12 +447,15 @@
 
 <!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <!-- menu accordion js -->
 <script type="text/javascript" src="assets/js/modules/slick.js"></script>
+<!-- menu js -->
  <script type="text/javascript" src="assets/js/modules/menu.js"></script>
+ <!-- progressBar js -->
+ <script type="text/javascript" src="assets/js/modules/progressBar.js"></script>
  <!-- slick js -->
  <script type="text/javascript" src="assets/js/pluggins/slick-min.js"></script>
-
 
 
  <!-- <script type="text/javascript" src="dist/build/js/bundle.js"></script> -->

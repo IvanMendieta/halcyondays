@@ -11,7 +11,25 @@ document.getElementById('my-Menu').addEventListener('click', () => {
       accordion.classList.add('menu-icon--visible');
   }
 
+  var burgerIcon = document.getElementById('burger-bars');
+
+  if( burgerIcon.classList.contains('change') ){
+      burgerIcon.classList.remove('change');
+  }else{
+      burgerIcon.classList.add('change');
+  }
+
 });
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function(){
+
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+
+};
 
 $(document).ready(function(){
 
