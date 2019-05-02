@@ -18,7 +18,11 @@
     top: 0;
     z-index: 1;
     width: 100%;
+    transition: 0.4s;
+    opacity: 0;
   }
+
+
   &__progress-bar{
     height: 8px;
     background-color: $mainGreen;
@@ -65,7 +69,9 @@
   }
 
 
-
+  .change.large-hero-section__progress-bar-container{
+    opacity: 1;
+  }
 
 
 }
