@@ -1,4 +1,5 @@
 .menu-icon{
+  z-index: 1;
 
   &__menuburger{
     cursor: pointer;

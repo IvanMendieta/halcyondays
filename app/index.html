@@ -47,10 +47,10 @@
         <div class="bar3"></div>
       </div>
     </div>
-    <div class="large-hero-section__container">
+    <div class="large-hero-section__container" id="fadein">
       <h2 class="large-hero-section__maintitle">Halcyon<span class="lightmaintitle">days</span></h2>
       <p class="large-hero-section__submaintitle">An exclusive HTML5/CSS3 freebie by Peter Finlan, for <i>Codrops.</i></p>
-      <a class="btn" href="#">Learn More</a>
+      <a class="btn btn--hover" href="#">Learn More</a>
     </div>
   </div>
 </section>
@@ -134,7 +134,7 @@
     <div class="problems-section__content">
       <h2 class="problems-section__heading">I got 99 problems</h2>
       <h3 class="problems-section__subheading">But <b>design</b> 'aint one</h3>
-      <i class="fas fa-chevron-down"></i>
+      <i class="fas fa-chevron-down fa-chevron-down--hover"></i>
     </div>
   </div>
 </section>
@@ -294,9 +294,9 @@
           <p class="team-section__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet.
           Praesent non adipiscing libero.</p>
           <ul class="socials">
-            <li><a href="#"></a><i class="fab fa-dribbble"></i></li>
-            <li><a href="#"></a><i class="fab fa-twitter"></i></li>
-            <li><a href="#"></a><i class="far fa-envelope"></i></li>
+            <li><a href="#"></a><i class="fab fa-dribbble fa-socials-state"></i></li>
+            <li><a href="#"></a><i class="fab fa-twitter fa-socials-state"></i></li>
+            <li><a href="#"></a><i class="far fa-envelope fa-socials-state"></i></li>
           </ul>
         </div>
         <div class="team-section__cols">
@@ -436,7 +436,7 @@
         <p class="footer-section__left-desc">Terms & Conditions <span class="pipe"> | </span> Legals</p>
       </div>
       <div class="footer-section__cols-right">
-        <p class="footer-section__right-desc"><span class="footer-span">Designed & Developed by</span> Peter Finlan <span class="footer-span">exclusively for</span> Codrops</p>
+        <p class="footer-section__right-desc"><span class="footer-span">Designed & Developed by</span> Peter Finlan <span class="footer-span">exclusively for</span> <span class="link-hover">Codrops</span></p>
       </div>
     </div>
   </div>
@@ -448,6 +448,8 @@
 <!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<!-- show on load header content js -->
+<script type="text/javascript" src="assets/js/modules/showOnLoad.js"></script>
 <!-- menu accordion js -->
 <script type="text/javascript" src="assets/js/modules/slick.js"></script>
 <!-- menu js -->

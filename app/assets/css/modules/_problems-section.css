@@ -27,6 +27,7 @@
       letter-spacing: 5px;
     }
   }
+
   &__subheading{
     padding-top: 18px;
     color: $mainWhite;
@@ -56,10 +57,16 @@
     padding: 15px;
     margin-bottom: 31px;
     cursor: pointer;
+    transition: 0.7s;
 
     @mixin atSmall{
       margin-top: 33px;
     }
+
+    &--hover:hover{
+      background-color: $mainTextLight;
+    }
+
   }
 
 

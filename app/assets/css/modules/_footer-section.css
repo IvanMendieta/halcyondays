@@ -46,7 +46,20 @@
   font-family: 'Varela Round', sans-serif;
   font-size: 0.875rem;
   letter-spacing: 1px;
+  transition: 0.7s;
 }
+.link-hover{
+  color: $mainTextLight;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  transition: 0.7s;
+}
+  .link-hover:hover{
+    color: $mainGreen;
+    cursor: pointer;
+  }
+
 .pipe{
     color: $mainWhite;
 }

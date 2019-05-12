@@ -52,6 +52,11 @@ window.onscroll = function(){
 
 };
 
+window.onload = function() {
+  var myFade = document.getElementById('fadein');
+    myFade.classList.add('fadein');
+};
+
 $(document).ready(function(){
 
   //inizialize specialist carousel

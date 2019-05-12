@@ -6,8 +6,9 @@
   background-size: cover;
 
   &__container{
-
     text-align: center;
+    opacity: 0;
+
   }
 
   &__progress-bar-container{
@@ -38,7 +39,7 @@
     color: $mainTextGrey;
     font-weight: 400;
     padding-bottom: 33px;
-
+    z-index: -1;
 
     span.lightmaintitle{
       color: $mainTextLight;
@@ -74,4 +75,14 @@
   }
 
 
+
+}
+
+.fadein {
+    opacity: 1;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.9s;
+    transition-duration: 2s;
 }
