@@ -1,3 +1,8 @@
+//or
+// window.addEventListener('scroll', function() {
+
+// });
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function(){
 
@@ -8,15 +13,18 @@ window.onscroll = function(){
   document.getElementById("myBar").style.width = scrolled + "%";
 
   //show and hide progress bar on scroll
-
   // grab the element
   var myprogress = document.getElementById('myprogress');
   //validate of scroll is grater than 0 add change style to opacity, show progress bar else removed
   if( scrolled > 0 ){
+    console.log(scrolled);
     myprogress.classList.add('change');
   }else{
     myprogress.classList.remove('change');
   }
+
+
+
 
 
 };
