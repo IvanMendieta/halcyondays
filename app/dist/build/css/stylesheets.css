@@ -938,7 +938,13 @@ img{
     display: inline-block;
     padding: 26px 38px;
     border-radius: 2px;
+    transition: 0.7s;
+  }
 
+.passion-section__heading:hover{
+    background-color: #3dc9b3;
+    cursor: pointer;
+    border: 1px solid #3dc9b3;
   }
 
 .team-section{
