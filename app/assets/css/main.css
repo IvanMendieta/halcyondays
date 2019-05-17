@@ -20,5 +20,6 @@
 @import 'modules/_footer-section';
 @import 'modules/_menu-icon';
 @import 'modules/_hover-image';
+@import "modules/_smooth-scroll";
 @import 'pluggins/slick';
 @import 'pluggins/slick-theme';

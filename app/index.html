@@ -21,7 +21,7 @@
 <body>
 
 <!-- large hero section -->
-<div class="menu-icon__accordion-menu">
+<div class="menu-icon__accordion-menu" id="top">
   <nav>
     <ul>
       <li><a href="#">Introduction<span class="arrows">&#62;</span></a></li>
@@ -40,6 +40,10 @@
   </div>
 
   <div class="wrapper wrapper--small">
+    <!-- scroll btn -->
+    <a href="#top" id="scroll-Btn"><i class="fas fa-hand-point-up fa-2x"></i></a>
+
+    <!-- menu icon/burger icon -->
     <div class="menu-icon__menuburger" id="my-Menu">
       <div id="burger-bars">
         <div class="bar1"></div>
@@ -443,8 +447,6 @@
 </section>
 
 
-
-
 <!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -456,8 +458,14 @@
  <script type="text/javascript" src="assets/js/modules/menu.js"></script>
  <!-- progressBar js -->
  <script type="text/javascript" src="assets/js/modules/progressBar.js"></script>
+ <!-- scroll button js pending..-->
+ <!-- <script src="node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script> -->
+ <!-- Get a specific version -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+ <script type="text/javascript" src="assets/js/modules/smoothScroll.js"></script>
  <!-- slick js -->
  <script type="text/javascript" src="assets/js/pluggins/slick-min.js"></script>
+
 
 
  <!-- <script type="text/javascript" src="dist/build/js/bundle.js"></script> -->

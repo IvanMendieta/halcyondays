@@ -23,6 +23,7 @@
     "postcss-simple-vars": "^5.0.2"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "smooth-scroll": "^16.0.3"
   }
 }
